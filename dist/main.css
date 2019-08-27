@@ -1,0 +1,28 @@
+body {
+    font-family: Futura, Arial, Helvetica, sans-serif;
+    color: #444;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#board {
+    border-collapse: collapse;
+}
+
+#board td {
+    border: 1px solid #ddd;
+    width: 18px;
+    height: 18px;
+}
+
+td.alive {
+    background-color: #8CC8DD;
+}
